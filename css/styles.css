@@ -1,0 +1,344 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ebebeb;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	font-size: 24px;
+	text-shadow: 0 1px 1px rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+	background-color: #f4f3f3;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+h4 {
+	font-family: Times, serif;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	border-right: 5px solid gold;
+	background-color: rgb(227, 227, 227);
+	padding: 0.5rem;
+}
+
+p {
+	font-size: 12px;
+}
+
+div.top-header {
+	padding: 5%;
+}
+
+header {
+	background-color: #eac926;
+}
+
+header div.logo {
+	width: 50%;
+}
+
+header div.logo {
+	padding: 10px;
+}
+header nav {
+	font-size: 12px;
+}
+
+header ul li {
+	list-style-type: none;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+header .form {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .form .input {
+	background-color: #fff;
+	border: 1px solid #000;
+	outline: none;
+	color: #666;
+	padding: 10px;
+	width: 80%;
+	font-style: italic;
+}
+
+header .form .submit {
+	padding: 0.8rem;
+	background-color: #fff;
+	border: 1px solid #000;
+	color: #666;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 1.1rem;
+}
+
+header div.top-header p {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.burger-menu {
+	text-align: center;
+}
+
+div.burger-menu i {
+	background-color: #0044aa;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	height: 40px;
+	margin: 10px 0px 20px 0px;
+	padding: 10px;
+	width: 40px;
+}
+
+.price {
+	font-size: 18px;
+}
+
+.discount {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+h3,
+.description {
+	color: #666;
+	margin-top: 20px;
+}
+
+section.banner img {
+	width: 100%;
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+main section article {
+	background-color: #fff;
+	margin: 10px 0px;
+}
+
+main section article img {
+	width: 100%;
+}
+
+main section article i,
+.discount {
+	color: #39b54a;
+}
+
+main section article i {
+	font-size: 16px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #39b54a;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+main section h3 {
+	margin: 20px 0px;
+}
+
+article div.main-article {
+	width: 100%;
+	border-top: 1px solid #ebebeb;
+	padding: 15px;
+}
+
+@media (min-width: 361px) {
+	main section article .description {
+		display: block;
+	}
+
+	main section article {
+		box-shadow: 0px 0px 10px rgb(100, 100, 100);
+	}
+}
+
+/* Mi codigo */
+
+.top-header .logo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem 0;
+}
+
+header nav ul li {
+	font-size: 1rem;
+}
+
+header nav ul li a {
+	padding: 0.5rem;
+}
+
+header nav ul li a:hover {
+	border-radius: 2px;
+	background-color: #e1e372;
+	font-weight: bold;
+}
+
+main section .products .main-article {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+main section .products .main-article .fa-truck {
+	position: absolute;
+	right: 15px;
+	top: -15px;
+}
+
+main section .products .main-article h4 {
+	width: 100%;
+}
+
+.pie-pagina {
+	background-color: white;
+	padding: 2%;
+}
+
+.footerElement {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.footerElement i {
+	font-size: 2em;
+	color: #0044aa;
+	margin: auto;
+	margin-bottom: 2%;
+}
+
+.footerElement p {
+	padding: 0 10% 0;
+}
+
+.rights p {
+	padding-top: 10px;
+	text-align: left;
+	opacity: 0.8;
+}
+.pie-pagina {
+	margin-top: 5rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.footerElement {
+	width: 100%;
+	margin: 0;
+}
+
+.footerElement i {
+	transition: all 300ms;
+}
+.footerElement i:hover {
+	color: #1183cf;
+}
+
+.footerElement i {
+	font-size: 2.5vw;
+}
+.footerElement p,
+.footerElement h4 {
+	font-size: 3.5vw;
+}
+
+.rights {
+	width: 100%;
+	padding-top: 2%;
+}
+
+@media (min-width: 480px) {
+	header .form {
+		justify-content: center;
+		gap: 0 1rem;
+	}
+
+	header .form .input {
+		width: 90%;
+	}
+
+	main section article:hover {
+		box-shadow: 0px 0px 10px rgb(40, 39, 39);
+	}
+
+	h3 {
+		font-size: 40px;
+	}
+
+	main section .products {
+		display: flex;
+		flex-flow: row wrap;
+		gap: 0 1rem;
+		justify-content: space-between;
+	}
+
+	main section .products article {
+		width: calc((100% / 2) - 1.5rem);
+	}
+
+	.footerElement {
+		width: 50%;
+	}
+
+	.footerElement p,
+	.footerElement h4 {
+		font-size: 1.5vw;
+	}
+}
+
+@media (min-width: 769px) {
+	h3 {
+		font-size: 85px;
+	}
+
+	main section .products article {
+		width: calc((100% / 3) - 1.5rem);
+	}
+
+	.footerElement {
+		width: 33%;
+	}
+
+	.footerElement p,
+	.footerElement h4 {
+		font-size: 1vw;
+	}
+}
